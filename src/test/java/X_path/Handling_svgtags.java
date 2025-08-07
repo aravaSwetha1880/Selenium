@@ -11,7 +11,7 @@ public class Handling_svgtags {
 		
 		// launch the broswer
 		WebDriver driver=new ChromeDriver();
-		
+		//maximize the window
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.flipkart.com/");
@@ -26,3 +26,4 @@ public class Handling_svgtags {
 	}
 
 }
+
